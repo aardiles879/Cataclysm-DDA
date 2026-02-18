@@ -348,5 +348,29 @@
     "required_proficiencies": [ "prof_wp_triffid_basic" ],
     "default_weakpoint_bonus": 2,
     "default_weakpoint_penalty": -2
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_wp_alien",
+    "category": "prof_weakpoint",
+    "name": { "str": "Principles of Alien Biology" },
+    "description": "Very basic familiarity with various types of alien creatures.",
+    "can_learn": true,
+    "time_to_learn": "30 m",
+    "required_proficiencies": [ "prof_wp_alien_biology" ],
+    "default_weakpoint_bonus": 2,
+    "default_weakpoint_penalty": 0
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_wp_moxie",
+    "category": "prof_weakpoint",
+    "name": { "str": "Principles of Moxie" },
+    "description": "Very basic familiarity with various types of moxie creatures.",
+    "can_learn": true,
+    "time_to_learn": "30 m",
+    "required_proficiencies": [ "prof_wp_moxie_biology" ],
+    "default_weakpoint_bonus": 2,
+    "default_weakpoint_penalty": -2
   }
 ]
